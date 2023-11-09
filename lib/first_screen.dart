@@ -1,5 +1,5 @@
-import 'package:athkar/my_container.dart';
-import 'package:athkar/my_container2.dart';
+import 'package:athkar/praise.dart';
+import 'package:athkar/praise2.dart';
 import 'package:flutter/material.dart';
 
 class FirstScreen extends StatefulWidget {
@@ -24,8 +24,8 @@ class _FirstScreenState extends State<FirstScreen> {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            Color(0xFFD2E3C8),
-            Color(0xFFEBF3E8),
+            Color(0xFF222222),
+            Color(0xFF222222),
           ],
         ),
       ),
@@ -35,12 +35,12 @@ class _FirstScreenState extends State<FirstScreen> {
           ElevatedButton(
             style: ElevatedButton.styleFrom(
               minimumSize: const Size(200, 70),
-              backgroundColor: const Color(0xFF86A789),
+              backgroundColor: const Color(0xFF111111),
               shadowColor: Colors.transparent,
             ),
             onPressed: () {
               Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => const MyContainer(),
+                builder: (context) => const Praise(),
               ));
             },
             child: const Text(
@@ -57,12 +57,12 @@ class _FirstScreenState extends State<FirstScreen> {
           ElevatedButton(
             style: ElevatedButton.styleFrom(
               minimumSize: const Size(200, 70),
-              backgroundColor: const Color(0xFFB2C8BA),
+              backgroundColor: const Color(0xFF111111),
               shadowColor: Colors.transparent,
             ),
             onPressed: () {
               Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => const MyContainer2(),
+                builder: (context) => const Praise2(),
               ));
             },
             child: const Text(

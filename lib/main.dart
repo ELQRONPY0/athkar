@@ -3,10 +3,21 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: FirstScreen(),
+        appBar: AppBar(
+          title: const Text(
+            'أذكاري',
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          centerTitle: true,
+          backgroundColor: const Color.fromARGB(255, 21, 128, 7),
+        ),
+        body: const FirstScreen(),
       ),
     ),
   );
