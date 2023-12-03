@@ -46,6 +46,7 @@ class _FirstScreenState extends State<FirstScreen> {
             child: const Text(
               'أذكار الصباح',
               style: TextStyle(
+                fontWeight: FontWeight.w700,
                 fontSize: 32,
                 color: Colors.white,
               ),
@@ -68,6 +69,7 @@ class _FirstScreenState extends State<FirstScreen> {
             child: const Text(
               ' أذكار المساء',
               style: TextStyle(
+                fontWeight: FontWeight.w700,
                 fontSize: 32,
                 color: Colors.white,
               ),
