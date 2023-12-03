@@ -8,10 +8,11 @@ void main() {
       home: Scaffold(
         appBar: AppBar(
           title: const Text(
-            'أذكاري',
+            'athkary',
             style: TextStyle(
-              fontSize: 30,
+              fontSize: 32,
               fontWeight: FontWeight.bold,
+              letterSpacing: 4.5,
             ),
           ),
           centerTitle: true,

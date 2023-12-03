@@ -1,14 +1,9 @@
 import 'package:athkar/athkar_alsabah.dart';
 import 'package:flutter/material.dart';
 
-class Praise extends StatefulWidget {
+class Praise extends StatelessWidget {
   const Praise({super.key});
 
-  @override
-  State<Praise> createState() => _PraiseState();
-}
-
-class _PraiseState extends State<Praise> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -16,7 +11,7 @@ class _PraiseState extends State<Praise> {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           Container(
-            color: Colors.black,
+            color: const Color(0xFF111111),
             child: const AthkarAlsabah(),
           ),
         ],
